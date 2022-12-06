@@ -9,7 +9,7 @@ import { DemoComponent } from './view/demo.component';
 // routing
 const routes: Routes = [
   {
-    path: 'demo-page',
+    path: '',
     component: DemoComponent,
 }
 //   {

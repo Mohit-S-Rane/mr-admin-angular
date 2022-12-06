@@ -8,6 +8,11 @@ const appRoutes: Routes = [
     loadChildren: () => import('./module/demo/demo.routing.module').then(m => m.AppsModule),
     canActivate: []
   },
+  {
+    path: 'demo',
+    loadChildren: () => import('./module/demo/demo.module').then(m => m.DemoModule),
+    canActivate: []
+  },
 ];
 
 @NgModule({
