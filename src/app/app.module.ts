@@ -7,11 +7,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DemoComponent } from './module/demo/view/demo.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
+import { LandingPageComponent } from './module/landing-page/view/landing-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DemoComponent
+    DemoComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,

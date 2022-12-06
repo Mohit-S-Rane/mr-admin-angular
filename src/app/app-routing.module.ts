@@ -4,6 +4,12 @@ import { DemoComponent } from './module/demo/view/demo.component';
 
 const appRoutes: Routes = [
   {
+    path: '',
+    loadChildren: () => import('./module/landing-page/landing-page.module').then(m => m.LandingPageModule),
+    canActivate: []
+  },
+
+  {
     path: 'apps',
     loadChildren: () => import('./module/demo/demo.routing.module').then(m => m.AppsModule),
     canActivate: []
