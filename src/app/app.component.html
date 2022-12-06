@@ -1,12 +1,22 @@
 <mat-toolbar>
-  <img class="logo-size" src="../assets/images/logo/logo.png" alt="car_logo">
-  <img class="logo-size" src="../assets/images/logo/carrentx-logo.png" alt="text_logo">
+  <img class="logo-size header-button" src="../assets/images/logo/logo.png" alt="car_logo" />
+  <img class="logo-size" src="../assets/images/logo/carrentx-logo.png" alt="text_logo" />
+  <span class="example-spacer"></span>
+  <button mat-raised-button class="header-button" aria-label="Example icon-button with share icon">
+    <span>Home</span>
+  </button>
+  <button mat-raised-button class="header-button" aria-label="Example icon-button with share icon">
+    <span>About</span>
+  </button>
+  <button mat-raised-button class="header-button" aria-label="Example icon-button with share icon">
+    <span>Contact</span>
+  </button>
 </mat-toolbar>
 
 <router-outlet></router-outlet>
 
 <footer class="footer-style">
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
     © 2021 Copyright:
     <a class="text-reset fw-bold" href="https://google.com/">Google.com</a>
   </div>

@@ -41,3 +41,14 @@ section {
 .logo-size {
   width: 8rem;
 }
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.header-button {
+  margin-right: 16px;
+  min-width: 0;
+  flex-shrink: 0;
+  background-color: accent;
+}
