@@ -2,13 +2,13 @@
   <img class="logo-size header-button" src="../assets/images/logo/logo.png" alt="car_logo" />
   <img class="logo-size" src="../assets/images/logo/carrentx-logo.png" alt="text_logo" />
   <span class="example-spacer"></span>
-  <button mat-raised-button class="header-button" name="home">
+  <button mat-raised-button class="header-button" name="home" (click)="navigateToHome()">
     <span>Home</span>
   </button>
-  <button mat-raised-button class="header-button" name="about">
+  <button mat-raised-button class="header-button" name="about" (click)="navigateToAbout()">
     <span>About</span>
   </button>
-  <button mat-raised-button class="header-button" name="contact">
+  <button mat-raised-button class="header-button" name="contact" (click)="navigateToContact()">
     <span>Contact</span>
   </button>
 </mat-toolbar>

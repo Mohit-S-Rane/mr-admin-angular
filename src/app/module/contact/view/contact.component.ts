@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-landing-page',
-  templateUrl: 'landing-page.component.html',
+  selector: 'app-contact',
+  templateUrl: 'contact.component.html',
   styles: [
     `
       .bg-image {
@@ -43,6 +43,6 @@ import { Component } from '@angular/core';
     `,
   ],
 })
-export class LandingPageComponent {
+export class ContactComponent {
   constructor() {}
 }
