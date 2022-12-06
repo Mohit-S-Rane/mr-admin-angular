@@ -5,40 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: 'contact.component.html',
   styles: [
     `
-      .bg-image {
-        background: #ffffff
-          url('../../../../assets/images/background/background_image.jpg');
-          /* no-repeat right top; */
-        height: 100vh;
-        /* width: 100vw; */
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 40%;
       }
 
-      .lg-title {
-        margin-top: 5rem;
-        color: #ffd700;
-        font-weight: 500;
-        font-size: 2rem;
-      }
-
-      .lg-title-1 {
-        color: white;
-        font-size: 4rem;
-        margin-top: 2rem;
-        font-weight: 500;
-      }
-
-      .lg-title-2 {
-        color: white;
-        font-size: 3rem;
-        margin-top: 3rem;
-        font-weight: 500;
-      }
-
-      .lg-title-3 {
-        /* color: white; */
-        /* font-size: 3rem; */
-        margin-top: 3rem;
-        /* font-weight: 500; */
+      .full-width {
+        width: 100%;
       }
     `,
   ],
