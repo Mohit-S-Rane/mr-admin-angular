@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-landing-page',
@@ -44,5 +45,9 @@ import { Component } from '@angular/core';
   ],
 })
 export class LandingPageComponent {
-  constructor() {}
+  constructor(public router: Router) {}
+
+  navigateToFindCarPage(){
+    this.router.navigate(['/find-car'])
+  }
 }

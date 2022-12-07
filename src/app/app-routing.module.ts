@@ -29,6 +29,11 @@ const appRoutes: Routes = [
     loadChildren: () => import('./module/about/about.module').then(m => m.AboutModule),
     canActivate: []
   },
+  {
+    path: 'find-car',
+    loadChildren: () => import('./module/find-car/find-car.module').then(m => m.FindCarModule),
+    canActivate: []
+  },
 ];
 
 @NgModule({
